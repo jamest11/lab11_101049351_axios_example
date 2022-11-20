@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import PersonList from './components/PersonList';
+import PersonList from './components/UserList';
 
 const App = () => {
   return (
     <>
-      <Container>
+      <Container className="mt-2">
         <Row>
           <Col className="text-center">
             <h2>User List</h2>
